@@ -1,0 +1,17 @@
+.header {
+	background-color: #2ecc71;
+	width:100%;
+	padding-bottom: 20px;
+}
+
+.main-block {
+	position: relative;
+	background-color: #ECF0F1;
+	width: 50%;
+	left: 25%
+}
+
+.back-background {
+	position: fixed;
+	background-color: rgba(0,0,0,0.8);
+}
