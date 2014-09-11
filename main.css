@@ -1,4 +1,4 @@
-.header {
+.mainheader {
 	background-color: #2ecc71;
 	width:100%;
 	height: 200px;
@@ -7,7 +7,17 @@
 	border-bottom: 20px solid #27AE60;
 }
 
-.header h1{
+.headers {
+	padding-left: 3%;
+}
+
+.subheaders {
+	border-bottom: 1px solid gray;
+	padding-left: 5%;
+}
+
+
+.mainheader h1{
 	position: absolute;
 	bottom: 0;
 	left: 0;
@@ -40,6 +50,24 @@ background: #BDC3C7;
 	border: none;
 	border-top: 1px solid lightgrey;
 	color: #A0A0A0;
+}
+
+.inpbox-out {
+	width: 80%;
+}
+
+.inpbox-in label {
+	width: 150px;
+	text-align: right;
+	display: inline-block;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	color: black;
+	font-size: 12px;
+}
+
+.inpbox-in input {
+	width: 60%;
 }
 
 .commentbox {
